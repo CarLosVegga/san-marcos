@@ -1,0 +1,40 @@
+.tarjeta {
+	width: 30rem;
+	padding: 4rem 2.5rem;
+	border-radius: 0.75rem;
+	box-shadow: 5px 5px 15px gray;
+	background-color: var(--white);
+}
+
+.tarjeta:hover {
+	cursor: pointer;
+	background-color: var(--neutral-50);
+	transition: 500ms;
+	scale: 105%;
+}
+
+.encabezado {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-bottom: 1rem;
+}
+
+.encabezado img {
+	width: 4rem;
+	margin: 0 2rem;
+}
+
+.encabezado h3 {
+	width: 100%;
+	text-align: left;
+	font-size: var(--medium-size-1);
+	color: var(--neutral-700);
+}
+
+.descripcion p {
+	font-size: var(--medium-size-2);
+	color: var(--neutral-700);
+	width: 100%;
+	text-align: center;
+}

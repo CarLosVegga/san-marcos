@@ -1,0 +1,33 @@
+.alter-rows {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	margin-top: 1rem;
+}
+
+.alter-rows button {
+	padding: 0.6rem 2rem;
+	font-size: var(--body-size-3);
+	margin: 0 1rem;
+	background-color: var(--success-400);
+	border-radius: 0.75rem;
+	color: var(--white)
+}
+
+.alter-rows button:hover {
+	cursor: pointer;
+}
+
+.alter-rows #add {
+	background-color: var(--success-400);
+	border: var(--success-400);
+}
+
+.alter-rows #remove {
+	background-color: var(--warning-800);
+	border: var(--warning-800);
+}
+
+.table-form-input {
+	margin: 0.8rem 0;
+}

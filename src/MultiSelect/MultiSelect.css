@@ -1,0 +1,14 @@
+.multiselect {
+	margin: 1rem 0 3rem;
+}
+
+.multiselect .multiselect-title {
+	font-size: var(--body-size-2);
+	font-weight: var(--body-weight);
+	margin: 0 0rem 0.5rem;
+}
+
+.multiselect ::placeholder {
+	color: var(--white);
+}
+

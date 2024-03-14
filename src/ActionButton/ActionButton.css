@@ -1,0 +1,29 @@
+.interact-button {
+	background-color: var(--primary-300);
+	color: var(--white);
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	border-radius: 0.5rem;
+	padding: 0.5rem 1rem;
+	width: 12rem;
+	margin: 0.5rem;
+}
+
+.interact-button:hover {
+	cursor: pointer;
+	scale: 105%;
+	transition: 500ms;
+}
+
+.interact-button p {
+	font-size: var(--body-size-3);
+}
+
+.interact-button#download img {
+	width: 1.2rem;
+}
+
+.interact-button#submit img {
+	width: 1.8rem;
+}

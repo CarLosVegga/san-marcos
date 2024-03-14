@@ -1,0 +1,30 @@
+header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: var(--primary-700);
+}
+
+header h1 {
+	font-size: var(--title-size-2);
+	color: var(--white);
+	font-weight: var(--title-weight);
+}
+
+header h2 {
+	font-size: var(--body-size-2);
+	color: var(--white);
+	font-weight: var(--title-weight);
+}
+
+header img {
+	width: 25rem;
+	margin: 0 4rem;
+}
+
+header img:hover {
+	cursor: pointer;
+	opacity: 50%;
+	scale: 105%;
+	transition: 600ms;
+}

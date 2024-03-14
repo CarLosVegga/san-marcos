@@ -1,0 +1,28 @@
+
+.table-button, .table-button-disabled {
+	width: 2.5rem;
+	height: 2.5rem;
+	margin: 0.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 0.5rem;
+}
+
+.table-button {
+	background-color: var(--primary-500);
+}
+
+.table-button-disabled {
+	background-color: var(--neutral-200);
+}
+
+.table-button:hover {
+	cursor: pointer;
+	background-color: var(--primary-700);
+	transition: 500ms;
+}
+
+.table-button img, .table-button-disabled img {
+	width: 50%;
+}

@@ -1,0 +1,27 @@
+.agregar .content h3 {
+	font-size: var(--body-size-1);
+	font-weight: var(--body-weight);
+	margin: 3rem 0 1.5rem;
+}
+
+/* .agregar .content h4 {
+	font-size: var(--body-size-2);
+	font-weight: var(--body-weight);
+	margin: 2rem 0;
+} */
+
+input::file-selector-button {
+	background-color: var(--neutral-300);
+	border: var(--neutral-300);
+	color: var(--white);
+	padding: 0.6rem 2rem;
+	border-radius: 0.5rem;
+}
+
+.submit-addition {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	margin: 4rem 0;
+}
+

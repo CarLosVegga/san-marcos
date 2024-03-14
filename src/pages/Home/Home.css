@@ -1,0 +1,22 @@
+.Home {
+	background-color: #f7f8fa;
+}
+
+.menu {
+	justify-content: center;
+	padding: 2rem;
+}
+
+.first-row, .second-row {
+	width: 100%;
+	display: flex;
+	margin: 4rem 0;
+}
+
+.first-row {
+	justify-content: space-evenly;
+}
+
+.second-row {
+	justify-content: space-around;
+}

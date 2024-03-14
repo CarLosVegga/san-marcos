@@ -1,0 +1,28 @@
+.selection-buttons {
+	margin: 0 0 2rem;
+}
+
+.selection-buttons button {
+	border-radius: 0.75rem;
+	padding: 0.80rem 1.25rem;
+	margin-right: 1rem;
+	font-size: var(--body-size-2);
+	font-weight: var(--body-weight);
+}
+
+.selection-buttons button:hover {
+	cursor: pointer
+}
+
+
+.selection-buttons .active {
+	background-color: var(--primary-300);
+	border: solid var(--primary-300);
+	color: var(--white);
+}
+
+.selection-buttons .inactive {
+	background-color: var(--white);
+	border: solid var(--primary-300);
+	color: var(--primary-300);
+}

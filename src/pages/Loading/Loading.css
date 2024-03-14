@@ -1,0 +1,27 @@
+.loading {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 8rem 0;
+}
+
+.loading h3 {
+	font-size: var(--body-size-1);
+	font-weight: var(--body-weight);
+	margin: 5rem;
+}
+
+@keyframes rotateAnimation {
+	from {
+	  transform: rotate(0deg);
+	}
+	to {
+	  transform: rotate(360deg);
+	}
+  }
+
+.loading .svg {
+	animation: rotateAnimation 3250ms linear infinite; /* Adjust duration and timing function as needed */
+}
